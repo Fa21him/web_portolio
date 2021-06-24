@@ -3,10 +3,24 @@ body{
 }
 h1{
     font-size: 40px;
+}
+h2{
+    font-size: 50px;
+    font-style: initial;
+}
+.orange-highlight{
+    color: orange
+}
+.orange-highlight1{
+    color:  #008cff;
+}
 
+.para2{
+    color: white;
+    font-weight:500;
 }
 .name{
-    color: darkmagenta;
+    color: rgb(255, 102, 0)
 }
 .halfwidth{
     width: 40%;
@@ -15,6 +29,48 @@ h1{
     padding: 1%;
 }
 .halfwidth img{
-    width: 100%;
+    width: 80%;
+}
+.half{
+    width: 40%;
     float: left;
+    margin-left: 5%;
+    padding: 1%;
+    
+}
+
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(234, 8, 241),#ff820e);
+    padding: 8px 15px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+.dream-area{
+    background-image: url("images/wp4068640-konoha-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newhalf{
+    box-shadow: 10px 10px 20px gray ;
+    height: 80%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+#line{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orange, rgb(251, 255, 0));
+    border-image-slice: 1;
+}
+#line1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, #008cff, #00f7ff);
+    border-image-slice: 1;
 }
